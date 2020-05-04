@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 250px;
+    height: auto;
+    min-height: 300px;
+}
